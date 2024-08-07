@@ -1,10 +1,19 @@
 spring:
- application:
-  name: ms-config-server
- cloud:
-  config:
-   server:
-    git:
-     uri: 
-     default-label: main
-     clone-on-start: true
+  cloud:
+    uri:
+    name:
+    profile:
+  application:
+    name: ms-product
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    username: brayan
+    password: brayan
+    url: jdbc:mysql://localhost:3307/products-db
+    driver-class-name: com.mysql.cj.jdbc.Driver
