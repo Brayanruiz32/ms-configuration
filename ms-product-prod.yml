@@ -7,7 +7,7 @@ spring:
       ddl-auto: create
     show-sql: true
   datasource:
-    username: brayan
-    password: brayan
+    username: root
+    password: root
     url: jdbc:mysql://localhost:3307/products-db-prod
     driver-class-name: com.mysql.cj.jdbc.Driver
