@@ -1,13 +1,6 @@
 spring:
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQLDialect
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-  datasource:
-    username: brayan
-    password: brayan
-    url: jdbc:mysql://localhost:3307/products-db
-    driver-class-name: com.mysql.cj.jdbc.Driver
+  dialect: org.hibernate.dialect.MySQLDialect
+  username: brayan
+  password: brayan
+  url: jdbc:mysql://localhost:3307/products-db
+  driver-class-name: com.mysql.cj.jdbc.Driver
