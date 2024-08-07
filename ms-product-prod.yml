@@ -1,10 +1,4 @@
 spring:
-  cloud:
-    uri:
-    name:
-    profile:
-  application:
-    name: ms-product
   jpa:
     properties:
       hibernate:
