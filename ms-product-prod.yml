@@ -1,0 +1,13 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    username: brayan-prod
+    password: brayan-prod
+    url: jdbc:mysql://localhost:3307/products-db-prod
+    driver-class-name: com.mysql.cj.jdbc.Driver
