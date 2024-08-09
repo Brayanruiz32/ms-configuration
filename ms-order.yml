@@ -1,16 +1,5 @@
 spring:
-  profiles:
-    default: default
-  application:
-    name: ms-order
-  jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.PostgreSQLDialect
-    hibernate:
-      ddl-auto: update
-    show-sql: true
-  datasource:
-    username: postgres
-    password: postgres
-    url: jdbc:postgresql://localhost:5432/orders-db
+  dialect: org.hibernate.dialect.PostgreSQLDialect
+  username: postgres
+  password: postgres
+  url: jdbc:postgresql://localhost:5432/orders-db
