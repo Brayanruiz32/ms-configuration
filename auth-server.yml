@@ -1,0 +1,2 @@
+application:
+  jwt-secret: 1234
